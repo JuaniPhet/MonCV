@@ -1,0 +1,449 @@
+body {
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #181818;
+    }
+    
+#bloc_page {
+    max-width: 860px;
+    height: 1450px;
+    margin: auto;
+    background-color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    width: 860px;
+    height: 380px;
+    background-color: cadetblue;
+    border-bottom: 2px solid darkslategrey;
+}
+
+#photo {
+    display: inline-block;
+    width: 300px;
+    height: 380px;
+}
+
+#circle_photo {
+    background: url('img/japhetWhite.png');
+    width: 286px;
+    height: 286px;
+    border: rgb(224, 222, 222) solid 8px;
+    background-color: floralwhite;
+    margin-top: 40px;
+    margin-left: -0.2px;
+    border-radius: 150px;
+}
+
+#name {
+    display: inline-block;
+    width: 510px;
+    height: 140px;
+    background-color: darkslategrey;
+    color: white;
+    font-weight: bold;
+    font-size: 1.9em;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+#name p {
+    font-weight: normal;
+    font-size: 0.7em;
+    border-top: 4px white solid;
+    width: 470px;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+
+#a_propos {
+    display: inline-block;
+    width: 480px;
+    height: 230px;
+    background-color: rgb(224, 222, 222);
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+#a_propos span {
+    color: rgb(224, 222, 222);
+}
+
+#entete {
+    display: inline-block;
+    width: 560px;
+    height: 350px;
+}
+
+#corps {
+    width: 860px;
+    height: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    width: 300px;
+    height: 1185px;
+    display: inline-block;
+    color: white;
+    background-color: rgb(3, 24, 27);
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+aside div p {
+    width: 130px;
+}
+
+aside hr {
+    margin-left: 0px;
+    width :235px;
+}
+
+article {
+    width: 560px;
+    height: 1185px;
+    display: inline-block;
+    background-color: rgb(240, 239, 239);
+    padding-top: 20px;
+    padding-left: 40px;
+    margin-left : -8.5px;
+}
+
+article p {
+    padding-right: 35px;
+}
+
+article hr {
+    width : 483px;
+    margin-left : 0px;
+    height: 2px;
+    background-color: rgb(3, 24, 27);
+}
+
+.langue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+    padding-top: 10px;
+}
+
+.langue img {
+    width: 50px;
+    height: 50px;
+}
+
+.text_fin {
+    color: rgb(224, 222, 222);
+    margin-top: 5px;
+    text-align: left;
+}
+
+#contact, #interets {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+    text-align: left;
+}
+
+#contact img {
+    width: 20px;
+    height: 20px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: white;
+}
+
+#contact a:hover {
+    color: rgb(224, 222, 222);
+}
+
+#contact sub {
+    margin-right: 8px;
+}
+#contact ul {
+    display: inline;
+    vertical-align: top;
+    width: 48%;
+    list-style-type: none;
+}
+
+#interets ul {
+    padding-left: 25px;
+    margin-top: 7px;
+    list-style-type: square;
+}
+
+#contact li, #interets li {
+    padding: 2px;
+}
+
+.competence {
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+.size_level {
+    width: 200px;
+    height: 10px;
+    background-color: white;
+    border: 2px solid rgb(3, 24, 27);
+    margin-top: 5px;
+}
+
+#level_couture {
+    width: 40%;
+    height: 10px;
+    background-color: rgb(3, 24, 27);
+}
+
+#level_web {
+    width: 60%;
+    height: 10px;
+    background-color: rgb(3, 24, 27);
+}
+
+#level_infographie {
+    width: 85%;
+    height: 10px;
+    background-color: rgb(3, 24, 27);
+}
+
+#level_ms {
+    width: 90%;
+    height: 10px;
+    background-color: rgb(3, 24, 27);
+}
+
+#level_ps {
+    width: 80%;
+    height: 10px;
+    background-color: rgb(3, 24, 27);
+}
+
+#level_ai {
+    width: 70%;
+    height: 10px;
+    background-color: rgb(3, 24, 27);
+}
+
+.formation {
+    display: flex;
+    flex-direction: row;
+}
+
+#annee1, #annee2, #annee3, #annee4, #annee5 {
+    width: 90px;
+    height: 40px;
+    font-size: 0.7em;
+}
+
+#annee2 {
+    width: 142px;
+}
+
+#annee4 {
+    width: 155px;
+}
+
+#annee3, #annee5 {
+    width: 70px;
+}
+
+#separator {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    align-items: center;
+}
+
+#rond {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(87, 85, 85);
+}
+
+#trait1, #trait2, #trait3, #trait4, #trait5 {
+    width: 4px;
+    height: 80px;
+    background-color: rgb(87, 85, 85);
+}
+
+#trait1 {
+    height: 94px;
+}
+
+#trait3, #trait4 {
+    height: 103px;
+}
+
+#trait5 {
+    height: 60px;
+}
+
+#texte {
+    margin-left: 5px;
+}
+#texte h3 {
+    margin-top: 0;
+}
+
+#texte h4 {
+    font-size: 0.9em;
+    margin-top: -14px;
+    color: rgb(54, 50, 50);
+}
+
+#texte p {
+    margin-top: -10px;
+}
+
+#language, #language1 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 290px;
+    background: rgb(3, 24, 27);
+    margin: 0;
+    margin-left: -25px;
+    padding: 0;
+    padding-top: 10px;
+}
+
+.circle , .circle1{
+    position: relative;
+    width: 290px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.circle .card, .circle1 .card1 {
+    position: relative;
+    width: 95px;
+    background: rgb(3, 24, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.par {
+    position: relative;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: rgb(3, 24, 27);
+    z-index: 1000;
+}
+
+.par .num {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.par .num h2 {
+    color: #777;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+.card:hover .par .num h2, .card1:hover .par .num h2 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.par .num h2 span {
+    font-size: 0.7em;
+    color: #777;
+}
+
+.card:hover .par .num h2 span, .card1:hover .par .num h2 span{
+    color: #fff;
+}
+
+.text {
+    position: relative;
+    color: #777;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    margin-right: -7px;
+    padding-top: 7px;
+}
+
+.card:hover .text, .card1:hover .text {
+    color: #fff;
+}
+
+svg {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    z-index: 1000;
+}
+
+svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: rgb(43, 39, 39);
+    stroke-width: 10;
+    stroke-linecap: square;
+    transform: translate(5px, 5px);
+}
+
+svg circle:nth-child(2) {
+    stroke-dasharray: 180;
+    stroke-dashoffset: 180;
+}
+
+.card:nth-child(1) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(180 - (180 * 90) / 100);
+    stroke: #f14419;
+}
+
+.card:nth-child(2) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(180 - (180 * 80) / 100);
+    stroke: #2c78e9;
+}
+
+.card:nth-child(3) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(180 - (180 * 50) / 100);
+    stroke: #f1da06;
+}
+
+.card1:nth-child(1) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(180 - (180 * 45) / 100);
+    stroke: #853707c5;
+}
+
+.card1:nth-child(2) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(180 - (180 * 30) / 100);
+    stroke: #231acec5;
+}
